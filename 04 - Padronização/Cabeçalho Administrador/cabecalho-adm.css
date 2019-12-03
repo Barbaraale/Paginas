@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+:root{
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+/*Fim definição de cores*/
+
+.capa-perfilU{
+    background: url('./imagens/Banner\ Perfil\ Usuário.jpg') center center;
+    background-size: 100% ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+.fotoperfil-perfilU {
+    width: 60%;
+}
+
+.menu-perfilU {
+    background: #11AA58;
+    width: 60%;
+}
+
+.nome-perfilU{
+    margin-left: 5em;
+    height: 5.6vh;
+    width: 13vw;
+    background: var(--rosa);
+    position: relative; top: 101px; left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nome-perfilU p{
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 1.2em;;
+    text-align: center;
+    font-family:'Open Sans';
+    
+}
+
+.fotoperfil-perfilU img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    margin: 35px 50px 0 145px;
+    
+}
+
+.menu-perfilU {
+    background: var(--branco);
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: var(--cinza_sombra) 1px solid;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    margin-left: 17.4em;
+}
+
+.menu-perfilU a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: var(--cinza);
+    font-size: 1.2em;
+}
+
+.menu-perfilU a:hover{
+    color: var(--rosa)
+}
+
+@media screen and (max-width: 768px){
+    .capa-perfilU {
+        width: 100vw;
+        height: 15vh;
+    }
+    .nome-perfilU {
+        width: 25vw;
+        height: 5.6vh;
+        margin-left: unset;
+        position: relative; top: 56.8px; left: 200px;
+    }
+    .menu-perfilU {
+        width: 53vw;
+        margin-left: 200px;
+        margin-top: 0px;
+    }    
+
+    .menu-perfilU a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        color: var(--cinza);
+        font-size: 1.1em;
+    }
+
+    .fotoperfil-perfilU img {
+        width: 13vw;
+        height: 16.50vh;
+        margin: 3px 72px;
+    
+    }
+
+    .menu-perfilU a:hover{
+        color: var(--cinza);
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .capa-perfilU{
+        width: 110vw;
+        height: 15vh;
+    }
+
+    .nome-perfilU p {
+        font-size: 1.1em;
+    }
+
+    .nome-perfilU {
+        width: 50vw;
+        height: 5.4vh;
+        margin-right: 5px;
+        position: relative;
+        top: 58px;
+        left: 145px;
+    }
+
+    .fotoperfil_perfilU img{
+        width: 1vw;
+        height: 1vh; 
+        margin: 1px; 
+    }
+
+    .menu-perfilU {
+        height: 7em;
+        width: 50vw;
+        margin-left: 145px;
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .fotoperfil-perfilU img {
+        width: 23vw;
+        height: 14vh;
+        margin: 13px 36px;
+    }
+    .menu-perfilU a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        color: var(--cinza);
+        font-size: 1em;
+    }
+
+    .menu-perfilU a:hover{
+        color: var(--cinza)
+    }
+}

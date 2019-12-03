@@ -1,0 +1,24 @@
+BANNER
+
+WEB
+align-items: center;
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+background-image: linear-gradient(rgba(37,1,38,0.45),rgba(37,1,38,0.45)), url(../imagens/Banner\ Criar\ Evento.jpg);
+display: flex;
+height: 35vh;
+justify-content: center;
+text-transform: uppercase;    
+
+    
+TITULO
+web = font-size: 5em;
+tablet = font-size: 4em;
+mobile = font-size: 2.30em;
+
+
+
+
+
+

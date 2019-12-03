@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+
+ :root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+/*Fim definição de cores*/
+/* COMEÇO WEB - PERFIL ADM EVENTO EDITADO */
+
+main {
+    align-items: center;
+    /* background: darkgoldenrod; */
+    display: flex;
+    height: 82vh;
+    justify-content: center;
+}
+
+#h1-eventorecusado {
+    /* background: coral; */
+    color: var(--preto);
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    height: 10vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-eventorecusado {
+    align-items: center;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    width: 60vw;
+}
+
+.filho-container-eventorecusado {
+    align-items: center;
+    /* background-color: pink;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+}
+
+#form-eventorecusado {
+    /* background: blue; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.section-p-eventorecusado {
+    align-items: center;
+    /* background-color: red; */
+    display: flex;
+    height: 30vh;
+    width: 40vw;
+}
+
+.section-p-eventorecusado p {
+    /* background: yellow; */
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.input-div-eventorecusado {
+    /* background: chartreuse; */
+    height: 30vh;
+    width: 40vw;
+}
+
+#input-eventorecusado {
+    border: 1.5px solid var(--cinza_sombra);
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+#input-eventorecusado::placeholder{
+    font-size: 1em;
+}
+
+.input-div-eventorecusado textarea::placeholder {
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botao-evento-recusado-adm-1 {
+    align-items: center;
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    height: 2.50em;
+    text-decoration: none;
+    width: 7.20em;
+}
+
+.botao-evento-recusado-adm-2 {
+    align-items: center;
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    height: 2.50em;
+    text-decoration: none;
+    width: 7.20em;
+}
+
+.botao-evento-recusado-adm-1:hover {
+    box-shadow: 1em 1em 5em #ccc;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+.botao-evento-recusado-adm-2:hover {
+    box-shadow: 1em 1em 5em #ccc;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+.botao-pai-evento-recusado-adm {
+    align-items: center;
+    /* background: grey; */
+    display: flex;
+    height: 30vh;
+    justify-content: space-between;
+    width: 18vw;
+}
+/* FIM WEB - PERFIL ADM EVENTO EDITADO */
+
+
+/* COMEÇO TABLET - PERFIL ADM EVENTO EDITADO */
+
+@media screen and (max-width: 768px) {
+    .container-eventorecusado {
+        align-items: center;
+        /* background-color: purple; */
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        justify-content: center;
+        width: 80vw;
+    }
+
+    .section-p-eventorecusado p {
+        /* background: yellow; */
+        font-weight: normal;
+        font-size: 1.10em;
+        width: 80vw;
+    }
+    
+    .botao-pai-evento-recusado-adm {
+        /* background: red; */
+        width: 35vw;
+    }
+
+    .section-p-eventorecusado {
+        width: 60vw;
+    }
+
+    .input-div-eventorecusado {
+        width: 60vw;
+    } */
+
+    .botao-evento-recusado-adm-1:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    
+    .botao-evento-recusado-adm-2:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+/* FIM TABLET- PERFIL ADM EVENTO EDITADO */
+
+
+    /* COMEÇO MOBILE - PERFIL ADM EVENTO EDITADO */
+    @media screen and (max-width: 375px) {
+        main {
+            /* background: darkgoldenrod; */
+            height: 70vh;
+        }
+
+        .container-eventorecusado {
+            /* background-color: purple; */
+            height: 50vh;
+            width: 80vw;
+        }
+        #h1-eventorecusado {
+            /* background: coral; */
+            height: 7vh;
+            font-size: 2em;
+            margin-bottom: 0.50em;
+            width: 80vw;
+        }
+        .section-p-eventorecusado {
+            align-items: center;
+            /* background-color: red; */
+            display: flex;
+            height: 20vh;
+            width: 80vw;
+        }
+        .section-p-eventorecusado p {
+            /* background: yellow; */
+            font-weight: normal;
+            font-size: 0.80em;
+        }
+
+        .input-div-eventorecusado {
+            /* background: chartreuse; */
+            height: 30vh;
+            width: 80vw;
+        }
+
+        #input-eventorecusado::placeholder{
+            font-size: 0.90em;
+        }
+
+        .botao-pai-evento-recusado-adm {
+            align-items: center;
+            /* background: grey; */
+            display: flex;
+            height: 30vh;
+            justify-content: space-between;
+            margin-top: 0.80em;
+            width: 70vw;
+        }
+    }
+    /* FIM MOBILE - PERFIL ADM EVENTO EDITADO */

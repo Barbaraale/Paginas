@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+
+ :root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+/*Fim definição de cores*/
+
+
+
+/* COMEÇO WEB - PERFIL ADM EVENTO APROVADO */
+main {
+    align-items: center;
+    /* background: darkgoldenrod; */
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+
+.evento-aprovado-adm {
+    /* background: red; */
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+}
+
+.topo-evento-aprovado-adm {
+    /* background: blue; */
+    display: flex;
+    font-size: 2.50em;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+}
+
+.container-evento-aprovado-adm {
+    align-items: center;
+    /* background: green; */
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    width: 60vw;
+}
+
+.texto-evento-aprovado-adm {
+    /* background: pink; */
+    color: var(--preto);
+    width: 50vw;
+}
+
+p {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.botao-evento-aprovado-adm-1 {
+    align-items: center;
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    height: 2.50em;
+    text-decoration: none;
+    width: 7.20em;
+}
+
+.botao-evento-aprovado-adm-2 {
+    align-items: center;
+    background-color: var(--verde);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    justify-content: center;
+    height: 2.50em;
+    text-decoration: none;
+    width: 7.20em;
+}
+
+.botao-evento-aprovado-adm-1:hover {
+    box-shadow: 1em 1em 5em #ccc;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+.botao-evento-aprovado-adm-2:hover {
+    box-shadow: 1em 1em 5em #ccc;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+.botao-pai-evento-aprovado-adm {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+}
+/* FIM WEB - PERFIL ADM EVENTO APROVADO */
+
+
+/* COMEÇO TABLET - PERFIL ADM EVENTO APROVADO */
+@media screen and (max-width: 768px) {
+    .topo-evento-aprovado-adm {
+        /* background: blue; */
+        display: flex;
+        font-size: 2.20em;
+        justify-content: center;
+        text-align: center;
+        width: 45vw;
+    }
+    .container-evento-aprovado-adm {
+        align-items: center;
+        /* background: green; */
+        display: flex;
+        height: 24vh;
+        justify-content: center;
+        width: 80vw;
+    }
+    .texto-evento-aprovado-adm {
+        /* background: pink; */
+        color: var(--preto);
+        font-size: 0.90em;
+        width: 80vw;
+    }
+    .botao-pai-evento-aprovado-adm {
+        /* background: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 36vw;
+    }
+
+    .botao-evento-aprovado-adm-1:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    
+    .botao-evento-aprovado-adm-2:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+}
+/* FIM TABLET- PERFIL ADM EVENTO APROVADO */
+
+
+/* COMEÇO MOBILE - PERFIL ADM EVENTO APROVADO */
+@media screen and (max-width: 375px) {
+    .topo-evento-aprovado-adm {
+        /* background: blue; */
+        display: flex;
+        font-size: 1.8em;
+        justify-content: center;
+        margin-bottom: 0.50em;
+        text-align: center;
+        width: 80vw;
+    }
+    .texto-evento-aprovado-adm p {
+        font-size: 1em;
+    }
+
+    .texto-evento-aprovado-adm {
+        /* background: pink; */
+        color: var(--preto);
+        font-size: 1.10em;
+        margin-bottom: 1.50em;
+        width: 80vw;
+    }
+
+    .botao-pai-evento-aprovado-adm {
+        /* background: red; */
+        display: flex;
+        justify-content: space-between;
+        width: 72vw;
+    }
+  
+}
+/* FIM MOBILE - PERFIL ADM EVENTO APROVADO */
