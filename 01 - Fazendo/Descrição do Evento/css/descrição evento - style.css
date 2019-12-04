@@ -52,16 +52,27 @@ p {
 
 .container_descrição{
     /* background: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 115vh;
+    margin-top: 2.55em;
     width: 40vw;
 }
 
-.quadrado_forades{
-    /* background: lightgreen; */
+.h1_descrição{
+    /* background: red; */
+    font-size: 1.50em;
+    width: 35vw;
+}
+
+.usuario_descrição{
+    align-items: center;
+    /* background: blueviolet; */
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100vh;
-    width: 20vw;
+    height: 18vh;
+    justify-content: space-between;
+    width: 35vw;
 }
 
 .imagem-usuario{
@@ -76,6 +87,55 @@ p {
     height: 10vh;
     width: 5vw;
 }
+
+.nome-usuario-descrição-evento{
+    align-items: center;
+    /* background:yellow; */
+    display: flex;
+    width: 29vw;
+}
+
+.nome-usuario-descrição-evento p{
+    font-size: 1em;
+}
+
+
+
+
+.quadrado_forades{
+    /* background: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 20vw;
+}
+
+.descrição_descrição{
+    /* background: lightblue; */
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: space-evenly;
+    width: 35vw;
+}
+
+.descricao-evento{
+    /* background: lightpink; */
+    width: 30vw;
+}
+
+.descricao-evento p{
+    font-size: 1em;
+    padding: 0.30em 0;
+}
+
+.titulo-descrição{
+    font-weight: bold;
+}
+
+
+
 
 .imagem-evento img{
     border: 0.80px solid var(--cinza);
@@ -98,7 +158,7 @@ p {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 15vw;
+    width: 14vw;
 }
 
 .botao-inscrever-descricao-evento a{
@@ -112,6 +172,12 @@ p {
     justify-content: center;
     text-decoration: none;;
     width: 14vw;
+}
+
+.botao-inscrever-descricao-evento:hover{
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
 }
 
 
@@ -197,8 +263,8 @@ p {
 }
 
 .data_img-descrição img{
-    height: 3vh;
-    width: 1.50vw;
+    height: 2.90vh;
+    width: 1.40vw;
 }
 
 .data_img-descrição p{
