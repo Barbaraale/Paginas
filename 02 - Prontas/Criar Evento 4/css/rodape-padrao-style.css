@@ -16,7 +16,7 @@ a, h1, h2, h3, h4, p{
 
 /*Definição de cores*/
 :root{
-    --cinza: #E6E6E6;
+    --cinza_rodapé: #E6E6E6;
     --verde: #11AA58;
     --azul: #3CBACE;
     --roxo: #94399E;
@@ -33,7 +33,7 @@ a, h1, h2, h3, h4, p{
 
 /* Começo do Footer */
 #rodape-padrao{
-    background: var(--cinza);
+    background: var(--cinza_rodapé);
     display: flex;
     height: 23vh;
     justify-content: center;
