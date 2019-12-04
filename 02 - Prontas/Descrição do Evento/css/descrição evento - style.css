@@ -46,7 +46,7 @@ p {
 .secao-geral-descricao{
     /* background: lightblue; */
     display: flex;
-    height: 100vh;
+    height: 125vh;
     margin: auto;
     width: 60vw;
 }
@@ -288,7 +288,7 @@ p {
 @media screen and (max-width: 768px){
     .secao-geral-descricao{
         /* background: lightblue; */
-        height: 100vh;
+        height: 130vh;
         width: 80vw;
     }
 
@@ -499,7 +499,7 @@ p {
     .secao-geral-descricao{
         /* background: purple; */
         display: block;
-        height: 215vh;
+        height: 218vh;
         width: 80vw;
     }
 
