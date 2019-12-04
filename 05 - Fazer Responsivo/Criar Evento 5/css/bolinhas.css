@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+:root{
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+.bolinhas_sub2{
+    /* background: #F5C10D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hr_sub2{
+    height: 0.4vh;
+    background: var(--preto);
+    border: none;
+    width: 25vw; 
+}
+
+.bolinhas_sub2 img{
+    width: 2.5vw;
+}
+
+.textobola_sub2{
+    /* background: #ED312F; */
+    display: flex;
+    margin: 0 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textobola_sub2 p{
+    color: var(--cinza);
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+    .texto1_sub2 h2 {
+        font-size: 1.3em;
+    }
+
+    .texto_sub2 h2 {
+        font-size: 1.3em;
+    }
+
+    .bolinhas_sub2 img {
+        width: 5.4vw;
+        height: 2.5em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .bolinhas_sub2 {
+        /* background: #F5C10D; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        display: none;
+    }
+}
