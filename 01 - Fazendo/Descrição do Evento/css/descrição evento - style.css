@@ -89,7 +89,8 @@ p {
     box-shadow: 2px 2px 15px var(--cinza_sombra);
     display: flex;
     flex-direction: column;
-    height: 25vh;
+    height: 23vh;
+    padding: 1.50em 0;
 }
 
 .botao-inscrever-descricao-evento{
@@ -100,13 +101,26 @@ p {
     width: 15vw;
 }
 
+.botao-inscrever-descricao-evento a{
+    align-items: center;
+    background: var(--rosa);
+    color: var(--branco);
+    display: flex;
+    font-size: 1em;
+    font-weight: 800;
+    height: 5vh;
+    justify-content: center;
+    text-decoration: none;;
+    width: 14vw;
+}
+
 
 .redes_descrição{
     /* background: lightseagreen; */
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 15vw;
+    width: 14vw;
 }
 
 .rede-social-compartilhar-descricao-evento img{
