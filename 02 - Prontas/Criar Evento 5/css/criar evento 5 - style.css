@@ -134,6 +134,51 @@ a, h1, h2, h3, h4, p{
 
 /* COMEÇO TABLET - CRIAR EVENTO 5 */
 @media screen and (max-width: 768px){
+    .conteudo-res{
+        /* background: lightblue; */
+        height: 145vh;
+        width: 80vw;
+    }
+
+    .container-res{
+        /* background: yellow; */
+        width: 80vw;
+    }
+
+    .esquerdo-res{
+        /* background: blueviolet; */
+        width: 40vw;
+    }
+
+    .esquerdo-res h2{
+        /* background: blue; */
+        font-size: 1.25em;
+    }
+    
+    .box-res h3{
+        /* background: yellowgreen; */
+        font-size: 1.1em;
+        font-weight: 580;
+    }
+    
+    .box-res p{
+        /* background: yellow; */
+        font-size: 0.99em;
+        font-weight: lighter;
+    }
+    
+    .direito-res{
+        /* background: #EF5BA1; */
+        width: 40vw;
+    }
+    
+    .direito-res h2{
+        font-size: 1.25em;
+    }
+    
+    .botão_res a{
+        padding: 0.60em 1.50em;
+    }
 }
 /* FIM TABLET - CRIAR EVENTO 5 */
 
@@ -141,5 +186,62 @@ a, h1, h2, h3, h4, p{
 
 /* COMEÇO MOBILE - CRIAR EVENTO 5 */
 @media screen and (max-width: 375px){
+    .conteudo-res{
+        /* background: lightblue; */
+        height: 170vh;
+        margin: auto;
+        padding: 3em 0;
+        width: 80vw;
+    }
+
+    .titulo-res h1{
+        /* background: lightcoral; */
+        font-size: 1.60em;
+        height: 6vh;
+    }
+    
+
+    .container-res{
+        /* background: yellow; */
+        display: block;
+        width: 80vw;
+    }
+
+    .esquerdo-res{
+        /* background: blueviolet; */
+        height: 38vh;
+        width: 80vw;
+    }
+    
+    .esquerdo-res h2{
+        /* background: blue; */
+        font-size: 1.20em;
+    }
+
+    .box-res h3{
+        /* background: yellowgreen; */
+        font-size: 0.90em;
+        font-weight: 580;
+    }
+
+    .box-res p{
+        /* background: yellow; */
+        font-size: 0.90em;
+        font-weight: lighter;
+    }
+    
+    .box-res{
+        margin: 20px 0;
+    }
+
+    .direito-res{
+        /* background: #EF5BA1; */
+        width: 80vw;
+        padding: 20px;
+    }
+    
+    .direito-res h2{
+        font-size: 1.20em;
+    }
 }
 /* FIM MOBILE - CRIAR EVENTO 5 */

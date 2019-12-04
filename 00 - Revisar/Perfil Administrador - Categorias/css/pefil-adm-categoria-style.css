@@ -41,15 +41,17 @@ a, h1, h2, h3, h4, p{
     /* background: lightblue; */
     display: flex;
     height: 10vh;
+    margin: auto;
     margin-top: 3em;
     justify-content: center;
+    width: 60vw;
 }
 
 .secao-add-categoria input{
     border:  var(--cinza_sombra) solid 1px;
     border-radius: 2px;
     box-shadow: 2px 2px 15px var(--cinza_sombra);
-    font-size: 0.9em;
+    font-size: 1em;
     height: 5.10vh;
     margin-right: 0.20em;
     width: 40vw;
@@ -60,9 +62,9 @@ a, h1, h2, h3, h4, p{
     border: none;
     color: white;
     cursor: pointer;
-    font-size: 0.90em;
+    font-size: 1em;
     font-weight: bold;
-    padding: 0.60em 1.30em;
+    padding: 0.50em 1.30em;
     text-decoration: none;
 }
 
@@ -72,12 +74,12 @@ a, h1, h2, h3, h4, p{
     transition: 0.6s;
 }
 
-
 .section-main-categoria{
     align-items: center;
     /* background-color: black; */
     display: flex;
     justify-content: center;
+    height: 50vh;
     margin-bottom: 3em;
     width: 100vw;
 }
@@ -92,15 +94,6 @@ a, h1, h2, h3, h4, p{
     width: 60vw;
 }
 
-.section-procurar-adicionar{
-    align-items: center;
-    /* background-color: pink; */
-    display: flex;
-    height: 30%;
-    justify-content: space-between;
-    width: 90%
-}
-
 .section-lista-categorias{
     align-items: center;
     /* background-color: orange; */
@@ -109,77 +102,6 @@ a, h1, h2, h3, h4, p{
     height: 80%;
     justify-content: space-evenly;
     width: 100%;
-}
-
-.input-buscar-categoria{
-    border: 1px solid var(--cinza_sombra);
-    box-shadow: 2px 2px 15px var(--cinza_sombra);
-    height: 5.30vh;
-    width: 40vh;
-}
-
-::-moz-placeholder{
-    color: var(--cinza_texto);
-    font-size: 1em;
-    padding: 0 1em;
-}
-
-.btn-procurar-categoria{
-    color: var(--branco);
-    background-color: var(--rosa);
-    border: none;
-    font-size: 0.8em;
-    font-weight: bold;
-    height: 5.30vh;
-    padding: 0 1.50em;
-}
-
-.btn-procurar-categoria:hover{
-    cursor: pointer;
-}
-
-.div-input{
-    /* background-color: gray; */
-    width: 70%;
-}
-
-.div-adicionar-categoria{
-    /* background-color: green; */
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    width: 35%;
-}
-
-.div-adicionar-categoria div{
-    align-items: center;
-    border: 2.5px solid var(--azul);
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-around;
-    width: 80%;
-}
-
-.div-adicionar-categoria div section{
-    /* background-color: pink; */
-    text-align: center;
-    width: 85%;
-}
-
-.btn-adicionar-categoria{
-    background: var(--azul);
-    color: var(--branco);
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    height: 4.5vh;
-    padding: 0 1.8em;
-}
-
-.btn-adicionar-categoria:hover{
-    cursor: pointer;
 }
 
 .section-minicard-categoria{
@@ -241,10 +163,122 @@ a, h1, h2, h3, h4, p{
 
 
 /* COMEÇO TABLET - PERFIL ADM CATEGORIA */
+@media screen and (max-width: 768px){
+    .secao-add-categoria{
+        /* background: lightblue; */
+        width: 80vw;
+    }
+
+    .secao-add-categoria input{
+        height: 5.40vh;
+        width: 50vw;
+    }
+
+    .botao-add-categoria button{
+        padding: 0.50em 1.20em;
+    }
+
+    .botao-add-categoria button:hover{
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .section-main-categoria{
+        /* background-color: black; */
+        margin: auto;
+        margin-bottom: 2em;
+        width: 80vw;
+    }
+
+    .section-container-categoria{
+        /* background-color: red; */
+        width: 80vw;
+    }
+
+    .section-minicard-categoria{
+        /* background-color: blue; */
+        height: 5.30vh;
+    }
+
+    .edits:hover{
+        cursor: none;
+    }
+
+    .deletes:hover{
+        cursor: none;
+    }  
+}
 /* FIM TABLET - PERFIL ADM CATEGORIA */
 
 
+
+
 /* COMEÇO MOBILE - PERFIL ADM CATEGORIA */
+@media screen and (max-width: 375px){
+    .secao-add-categoria{
+        /* background: lightblue; */
+        display: block;
+        width: 80vw;
+    }
+
+    .secao-add-categoria input{
+        height: 5.40vh;
+        width: 80vw;
+    }
+
+    .botao-add-categoria{
+        align-items: center;
+        /* background: chocolate; */
+        display: flex;
+        height: 10vh;
+        justify-content: center;
+    }
+
+    .botao-add-categoria button{
+        padding: 0.50em 1.20em;
+    }
+
+    .botao-add-categoria button:hover{
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+
+    .section-main-categoria{
+        /* background-color: black; */
+        margin: auto;
+        margin-bottom: 2em;
+        width: 80vw;
+    }
+
+    .section-container-categoria{
+        /* background-color: red; */
+        margin-top: 1.30em;
+        width: 80vw;
+    }
+
+    .section-minicard-categoria{
+        /* background: chartreuse; */
+        width: 80vw;
+    }
+
+    .div-minicard-nome-categoria p {
+        font-size: 0.90em;
+    }
+    
+    .div-editar-deletar-categoria{
+        /* background-color: purple; */
+        width: 25%;
+    }
+    .edits:hover{
+        cursor: none;
+    }
+
+    .deletes:hover{
+        cursor: none;
+    }  
+}
 /* FIM MOBILE - PERFIL ADM CATEGORIA */
 
 
