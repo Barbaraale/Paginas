@@ -111,7 +111,7 @@ a, h1, h2, h3, h4, p{
     display: flex;
     height: 5vh;
     justify-content: space-between;
-    width: 90%;
+
 }
 
 .div-minicard-nome-categoria{
